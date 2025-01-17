@@ -1,5 +1,3 @@
-// Code your solution in this file!
-
 // Function 1: distanceFromHqInBlocks
 // Returns the number of blocks from Scuber's headquarters at 42nd Street
 function distanceFromHqInBlocks(someValue) {
@@ -24,7 +22,7 @@ function distanceFromHqInBlocks(someValue) {
   // Calculates the fare price based on the distance travelled (using the rules provided)
   function calculatesFarePrice(start, destination) {
     const distance = distanceTravelledInFeet(start, destination); // Get the distance in feet
-    
+  
     if (distance <= 400) {
       return 0; // Free for the first 400 feet
     } else if (distance > 400 && distance <= 2000) {
